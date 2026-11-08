@@ -92,7 +92,7 @@ ARMOR_DEFENSE: dict[str, int] = {
 EQUIP_SLOTS: tuple[str, ...] = tuple(ARMOR_DEFENSE) + ("武器",)
 
 # 每件装备的最高等级（挑战领主的门槛：全部 6 件满级）
-FORGE_MAX_LEVEL: int = 10
+FORGE_MAX_LEVEL: int = 5
 
 # 召唤法阵每次召唤的怪物上限：逼出"分批召唤"的计划行为
 SPAWN_LIMIT: int = 25
